@@ -1,0 +1,19 @@
+name: Auto Pass
+
+on:
+  pull_request:
+    branches: 
+      - main
+
+
+jobs:
+  
+  myjob:
+  
+    runs-on: ubuntu-latest
+
+  
+    steps:
+  
+      - name: Run a one-line script
+        run: exit 0
